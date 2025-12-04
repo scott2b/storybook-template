@@ -1,15 +1,5 @@
 # Hybrid GitHub+Copier Template
 
-## template-template repo
-
-DELETE THIS SECTION IN DERIVED REPOSITORIES
-
-To use the template-template, simply create a new repository in GitHub and specify
-scott2b/template-template as the repository template.
-
-
-## All derived repositories
-
 This repository is a *hybrid* template:
 
 - The `template/` directory contains the Copier template for **final projects**.
