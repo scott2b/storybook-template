@@ -1,4 +1,4 @@
-# copier.yml (root of template-template AND of every hybrid repo)
+# copier.yml for multi-framework Storybook component library template
 _min_copier_version: "9.0.0"
 
 # Only use the contents of ./template when generating projects
@@ -9,10 +9,25 @@ _answers_file: .copier-answers.yml
 
 project_name:
   type: str
-  help: "Human-readable project name"
-  default: "Example project"
+  help: "Human-readable project name (e.g., 'Web Components')"
+  default: "Web Components"
 
 project_slug:
   type: str
-  help: "Import/package/directory name"
-  default: "{{ project_name|lower|replace(' ', '_') }}"
+  help: "Package scope/prefix (e.g., 'design' for @design/ui-*)"
+  default: "design"
+
+project_description:
+  type: str
+  help: "Short project description"
+  default: "Multi-framework component library with Storybook"
+
+author_name:
+  type: str
+  help: "Author name"
+  default: ""
+
+author_email:
+  type: str
+  help: "Author email"
+  default: ""
